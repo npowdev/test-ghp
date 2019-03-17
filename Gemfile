@@ -23,6 +23,25 @@ gem "github-pages", group: :jekyll_plugins
 #    gem "jekyll-paginate", "~> 1.1.0"
 # end
 
+# GitHub Metadata Jekyll plugin need authentication to propagate the 
+# 'site.github' namespace and set default values of some fields and 
+# get data: 
+#
+#   1. First, generate a new personal access token on GitHub.com:
+# 
+#       Open https://github.com/settings/tokens/new
+#       Token need scope public_repo selected.
+#       Save settings and copy the token you see on the page.
+# 
+#   2. Once you have your token, you need to pass it to this program:
+#       1. Set environment var JEKYLL_GITHUB_TOKEN to the token value.
+#               ...or...
+#       2. Set JEKYLL_GITHUB_TOKEN to your access token when you run 
+#          jekyll, like this:
+# 
+#          $ JEKYLL_GITHUB_TOKEN=123abc [bundle exec] jekyll serve
+# 
+
 # Windows: Needed in Gemfile to avoid polling for changes.
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
