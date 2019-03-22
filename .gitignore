@@ -64,5 +64,8 @@ $RECYCLE.BIN/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-# Stay awy files not needed on github pages
+# Stay away from files not needed on github pages or temp. local jekyll/bundle/gem files
 Gemfile.lock
+.bundle
+.sass-cache
+*.gem
