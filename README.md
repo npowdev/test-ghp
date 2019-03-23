@@ -1,5 +1,6 @@
 # test-ghp
-Test repo for project github pages as an sub-url from an [npowdev.github.io/test-ghp/](npowdev.github.io/test-ghp/).
+Test repo for project github pages as an sub-url from an [npowdev.github.io/test-ghp/](npowdev.github.io/test-ghp/). <br />
+Run in {{ jekyll.environment }} mode here.
 
 ## Test Objective
 - try out github pages in root directory.
